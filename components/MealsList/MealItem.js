@@ -1,7 +1,7 @@
 import { View, Text, Pressable, Image, StyleSheet, Platform } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 
-import MealsDetails from './MealsDetails';
+import MealsDetails from '../MealsDetails';
 
 function MealItem(props) {
   const { title, imageUrl, duration, complexity, affordability, id } = props;
